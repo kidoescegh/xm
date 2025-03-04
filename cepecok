@@ -1,0 +1,16 @@
+# install dependencies
+sudo apt-get install libcurl4-openssl-dev libncurses5-dev pkg-config automake yasm git gcc -y
+
+# clone cpuminer
+git clone https://github.com/pooler/cpuminer.git
+
+# compile
+cd cpuminer
+./autogen.sh
+./configure CFLAGS="-O3"
+make
+
+# choose a miner pool and register there
+
+# start the miner in background
+nohup ./minerd -o stratum+tcp://btc.viabtc.io:443 --user=kazep90.001 > min.log 2>&1 &
